@@ -71,7 +71,7 @@
       <div class="about-wrapper">
         <div class="about-me">
           <h4>About Me</h4>
-          <p>I just finished my second year at RIT and will be on co-op
+          <p>I just finished my second year at RIT and am currently on Co-Op
             as a Software Engineering Intern at Alion Science and Technology
             in Rome, NY.</p>
           <p>Outside of education and software, I enjoy working out, learning
@@ -79,7 +79,7 @@
           <hr>
           <h4>Skillset</h4>
           <p>A list of full projects and skills can be found here:
-            <a target="_blank" href="Urbanke_Corey_Resume Spring 2021.pdf">
+            <a target="_blank" href="Urbanke_Corey_Resume Fall 2021.pdf">
               Download Resume</a>
           </p>
 
@@ -90,13 +90,13 @@
                 <li class="active">
                   <span>Python</span>
                   <a href="post_pass.html">
-                    <img src="https://uk8dp.csb.app/assets/python.png"/>
+                    <img src="https://uk8dp.csb.app/assets/python.png" />
                   </a>
                 </li>
                 <li>
                   <span>Java</span>
                   <a href="post_checkers.html">
-                    <img src="https://freepikpsd.com/media/2019/10/java-logo-transparent-png-5-Transparent-Images.png"/>
+                    <img src="https://freepikpsd.com/media/2019/10/java-logo-transparent-png-5-Transparent-Images.png" />
                   </a>
                 </li>
                 <li>
@@ -132,7 +132,7 @@
                 <li>
                   <span>Linux</span>
                   <a href="#">
-                    <img src="http://assets.stickpng.com/images/58480e82cef1014c0b5e4927.png" />
+                    <img src="https://1000logos.net/wp-content/uploads/2017/03/LINUX-LOGO.png" />
                   </a>
                 </li>
 
@@ -192,18 +192,18 @@
   <section class="s2">
     <div class="main-container">
       <h3 style="text-align: center;">Contact Me</h3>
-      <form id="contact-form">
+      <form id="contact-form" action="https://formspree.io/f/xrgrlkvb" method="POST">
         <label>Name</label>
-        <input name="name" type="text" class="input-field">
+        <input name="_name" type="text" class="input-field" required>
 
         <label>Subject</label>
-        <input name="subject" type="text" class="input-field">
+        <input name="_subject" type="text" class="input-field" required>
 
         <label>Email</label>
-        <input name="email" type="text" class="input-field">
+        <input name="_replyto" type="email" class="input-field" required>
 
         <label>Message</label>
-        <textarea name="message" class="input-field"></textarea>
+        <textarea name="_message" class="input-field"></textarea>
         <input id="submit-btn" type="submit" value="Send">
       </form>
     </div>
