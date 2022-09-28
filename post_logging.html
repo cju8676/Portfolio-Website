@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="default.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/
+  css2?family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/
+  css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+  <link id="theme-style" rel="stylesheet" type="text/css" href="">
+  <title>Corey Urbanke's Project</title>
+  <style type="text/css">
+    .img-container {
+      max-width: 800px;
+      display: flex;
+
+    }
+
+    img {
+      width: 100%;
+      border: 2px solid var(--profPicColor);
+    }
+  </style>
+</head>
+
+<body>
+
+<section class="s1">
+  <div class="nav-wrapper">
+    <div class="dots-wrapper">
+      <a href="index.html" id="dot-1" class="browser-dot"></a>
+      <div id="dot-2" class="browser-dot"></div>
+      <div id="dot-3" class="browser-dot"></div>
+    </div>
+    <ul id="navigation">
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+  <div class="main-container">
+    <h3>DirecNet Logging Application</h3>
+    <div class="img-container">
+      <div>
+        <img src="images/dnet/loggingdash.png">
+      </div>
+    </div>
+    <h5>Technologies Used:</h5>
+    <ul>
+      <li>MongoDB</li>
+      <li>React JS</li>
+      <li>Express JS</li>
+      <li>Node JS</li>
+      <li>Microsoft Azure</li>
+      <li>GitHub</li>
+    </ul>
+    <h5>Description:</h5>
+    <p>This application was built using the MERN technology stack, for the
+    intention of giving the DirecNet team a seamless dashboard to carry out
+    field testing, standups, reproducible field tests, and more. Hosted through
+    Microsoft Azure and their Cosmos DB, App Service, etc.</p>
+    <br>
+    <p>Application features include: Jira/BitBucket Server dynamic updates,
+    tracking code commits/status, a full weather page, making test suites
+    for future field tests, mapping location of said tests, and a fully
+    integrated calendar and status widgets to integrate into team standups
+    and meetings.</p>
+    <br>
+    <h6>* Note: Confidential HII information/data has been blurred.</h6>
+    <h5>Dashboard</h5>
+    <div class="two-img">
+      <img
+        src="images/dnet/loggingdash.png"
+        alt="Logging Dash"
+        style="max-width: 70vh; height: auto;">
+      <img
+        src="images/dnet/loggingdash2.png"
+        alt="Logging Dash Bottom"
+        style="max-width: 70vh; height: auto;">
+    </div>
+    <p>The Dashboard features Atlassian quick links, Latest Software build widgets,
+    recent field tests, overviews of team status and progress, field testing conditions,
+    and important calendar events.
+    </p>
+    <br>
+    <p>Users can interact with each widget, adding, editing, or removing data
+    entries which may correspond to what the team is working on, what they want to view,
+    or redirect them to the corresponding page.</p>
+
+    <h5>Tests Page</h5>
+    <img src="images/dnet/testpagetable.png" alt="Testing Page Home">
+    <p>Users view the previous field tests in chronological order in a compact
+    table view. Users can click on a table entry to view a more in depth view,
+    order the table by a different category, or press the add button at the top
+    to create a new test suite.</p>
+    <img src="images/dnet/newtest.png" alt="Create New Test Suite">
+    <p>Users will go through and create a new test entry by clicking and
+    editing each text entry. A default entry is populated with text entries the
+    users can go through and edit/save at any time they need.</p>
+    <h5>Maps Page</h5>
+    <img src="images/dnet/newmaps.png" alt="Create New Maps">
+    <p>Similar to creating a new test suite, there is the ability to create a
+    fixed maps scenario of the certain field test you are trying to perform
+    over and over again. A maps Pane is pre populated where node actions (such as
+    moving, linking, disconnecting, etc.), coordinates, colors, shapes, zoom,
+    and more are customizable and can be edited/saved at any time.</p>
+    <br>
+    <p>These test scenes are then linked to a test suite when it is performed
+    later on. Therefore, when a test is completed, we have complete control over
+    replicating the scenario, node arrangement, actions, and more. Thus, This
+    eliminates a multitude of variables that could cause a field test to be
+    scrapped.</p>
+    <h5>Calendar</h5>
+    <img src="images/dnet/calendarpage.png" alt="Calendar Page">
+    <p>The Calendar mini app is a full size version of the calendar widget on
+    the Dashboard. Similar to Google Calendar, users can input, edit, and remove
+    events on the calendar to signify important dates the team should keep note
+    of.</p>
+    <br>
+    <p>This component has several abilities which come from the Syncfusion React
+    library and allow the user to switch views, days they are viewing, drag and
+    drop events, and more.</p>
+
+    <h5>Weather</h5>
+    <img src="images/dnet/weatherpage.png" alt="Weather Page">
+    <p>Lastly, the weather mini app is another full size version of a Dashboard
+    widget. Data is parsed from an OpenWeatherAPI call to generate weather data
+    in a dashboard format the user can view on the front end. In the settings,
+    users have the ability to change the location that gets queried.</p>
+    <br>
+    <p>Features on this page include a graph display of the hourly breakdown
+    (that can be switched to an hourly precipitation chance breakdown), a 7-day
+    forecast on the right hand side, chance of rain, wind speed, humidity, and
+    UV index. This page also incorporates Syncfusion React library components
+    that have customizable and reusable properties.</p>
+  </div>
+</section>
+
+
+  <script type="text/JavaScript" src="script.js"></script>
+
+</body>
+
+</html>
